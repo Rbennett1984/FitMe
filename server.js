@@ -19,9 +19,17 @@ ProductList.create('HITT', 4);
 // adding some workout to "workouts" so there's something
 // to retrieve.
 Workouts.create(
-  'boiled white rice', ['1 cup white rice', '2 cups water', 'pinch of salt']);
+  'Total Body HITT', ['Duration: 38 Minutes',
+    'Calorie Burn: 219-421',
+    'Difficulty: 4/5',
+    'Equipment: Mat', 'No Equipment',
+    'Training Type: Cardiovascular, HIIT']);
 Workouts.create(
-  'milkshake', ['2 tbsp cocoa', '2 cups vanilla ice cream', '1 cup milk']);
+  'Core Blast', ['Duration: 34 Minutes',
+    'Calorie Burn: 134-272',
+    'Difficulty: 4/5',
+    'Equipment: kettlebell, Mat',
+    'Training Type: Low Impact, Strength Training, Core']);
 
 // when the root of this router is called with GET, return
 // all current ProductList items
